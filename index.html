@@ -3,70 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Landing Page</title>
 </head>
 <body>
-    <section class="hero">
-        <div class="header">
-            <h2 class="logo">Header Logo</h2>
-            <a>header link</a>
-            <a>header link</a>
-            <a>header link</a>
+    <div class="hero">
+        <div class ="header">
+            <h2>The Guilded Fretboard</h2>
+            <ul class="navigation">
+                <li><a href="">Header link 1</a></li>
+                <li><a href="">Header link 2</a></li>
+                <li><a href="">Header link 3</a></li>
+            </ul>
         </div>
-        <div class="content">
-            <div class="left_stuff">
-                <h1 class="title">This website is awesome!</h1>
-                <p class="description">some subtext goes here</p>
-                <button>Sign up</button>
+        <div class="hero_content">
+            <div class="content_text">
+                <h2>Welcome to our hallowed halls</h2>
+                <p class="description">Where every instrument is a masterpiece, and every customer a profound disappointment.</p>
+                <p class="description">We do not sell guitars to unworthy hands. We merely display them for the moral improvement of those who can appreciate—from a distance—what they cannot possibly afford, nor ever hope to master.</p>
+                <button>Sign up!</button>
             </div>
-            <div class="hero_img">
-                <img src="" alt="placeholder">
-            </div>
-        </div>
-    </section>
 
-    <section class="info">
-        <h2 class="info_title">Some content information here</h2>
+            <div class="hero_image">
+                <img class="image_hero" src="guitar.jpg" alt="a guitar, yes">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section_2">
+        <h2>A sassy description</h2>
         <div class="gallery">
-            <div class="portrait">
-                <img src="" alt="1">
-                <p>subtext under image</p>
-            </div>
+            <figure>
+                <img src="" alt="picture 1">
+                <figcaption>Some description under the image</figcaption>
+            </figure>
 
-            <div class="portrait">
-                <img src="" alt="2">
-                <p>subtext under image</p>
-            </div>
+            <figure>
+                <img src="" alt="picture 2">
+                <figcaption>Some description under the image</figcaption>
+            </figure>
 
-            <div class="portrait">
-                <img src="" alt="3">
-                <p>subtext under image</p>
-            </div>
+            <figure>
+                <img src="" alt="picture 3">
+                <figcaption>Some description under the image</figcaption>
+            </figure>
 
-            <div class="portrait">
-                <img src="" alt="4">
-                <p>subtext under image</p>
-            </div>
+            <figure>
+                <img src="" alt="picture 4">
+                <figcaption>Some description under the image</figcaption>
+            </figure>
         </div>
-    </section>
+    </div>
 
-    <section class="yelp">
-        <p class="quote">Some review goes here that no one will read</p>
-        <p>the author, maybe</p>
-    </section>
+    <div class="section_3">
+        <p class="quotation">Some comment or endorsemenet no one will head, probably</p>
+        <p class="author">-whatever brigade</p>
+    </div>
 
-    <section class="call">
-        <div class="pop_up">
-            <p>call to action! It's time!</p>
-            <p>sign up for the product yada yada</p>
-            <button>sign up again, please.</button>
+    <div class="section_4">
+        <div class="call_action">
+            <div class="action_text">
+                <h2>Call to action!</h2>
+                <p>More advertisement subtext goes here</p>
+            </div>
+            <button class="sign_up">Sign Up</button>
         </div>
-        <div class="footer">Copyright The Odin Project 2025</div>
-    </section>
+
+        <div class="footer">
+            <p>The odin project, folks!</p>
+        </div>
+    </div>
 
 </body>
 </html>
